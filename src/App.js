@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router';
 import './App.css';
+import Home from './routes/home/home.component';
+import ImageHomeWrapper from './components/image-home-wrapper/image-home-wrapper.component';
+import Restaurants from './routes/restaurants/restaurants.component';
+import Cart from './routes/cart/cart.component';
+import Auth from './routes/auth/auth.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-contanier'>
+      <Routes>
+        <Route path='/' element={<Home />}>
+          <Route index element={<ImageHomeWrapper/>}/>
+          <Route path='restaurants' element={<Restaurants/>}/>
+          <Route path='auth' element={<Auth/>}/>
+          <Route path='cart' element={<Cart/>}/>
+        </Route>
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin: 20px 0;
+}
+.logo-container>.logo{
+    border: 4px solid orange;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 800;
+    font-size: 22px;
+    color: orange;
+}   
+.menu-item-container {
+    margin-right: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu-item-container:last-child {
+    margin-right: 0;
+}
+.cursor-text-decoration{
+    cursor: pointer;
+    text-decoration: none;
+}
