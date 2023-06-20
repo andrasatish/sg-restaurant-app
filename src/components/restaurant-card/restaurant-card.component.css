@@ -1,0 +1,40 @@
+.restaurant-card-container {
+    margin-right: 50px;
+    padding: 10px;
+    width: 25%;
+    height: 350px;
+    cursor: pointer;
+}
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.restaurant-card-image-container {
+    min-height: 200px;
+    width: 100%;
+}
+p.restaurant-card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.restaurant-card-desc {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid orange;
+}
+.restaurant-card-offers {
+    padding-top: 20px;
+    font-weight: 600;
+    color: rgb(161, 117, 35);
+}
+.res-rating{
+    background: orange;
+    padding: 1px 4px;
+    color: #fff;
+}
+.restaurant-card-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

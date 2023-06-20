@@ -1,0 +1,155 @@
+{
+    "restuarants": {
+        "krispyFoods": {
+            "name": "Krispy Foods",
+            "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/8637fd17acb9472e8d22e7c2e2af5ee6",
+            "rating": "3.7",
+            "time": "17 Mins",
+            "quantity": "300 For two",
+            "offers": "20% off | Use TRYNEW",
+            "route": "krispy_foods",
+            "foodItems": {
+                "Recommended": [
+                    {
+                        "recipy_name": "schezwan chicken pizza",
+                        "price": "285",
+                        "description": "schezwan chicken pizza",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/66d06c5afeb77460486dd8346de78a64",
+                        "id":101
+                    }
+                ],
+                "Hot & Crispy": [
+                    {
+                        "recipy_name": "schezwan chicken pizza",
+                        "price": "285",
+                        "description": "schezwan chicken pizza",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wy2mzwcudzmwmrij88yj",
+                        "id":101 
+                    },
+                    {
+                        "recipy_name": "chicken stripscs",
+                        "price": "195",
+                        "description": "Crispy fried chicken strips",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gcinkzcpedq69jaz7anm",
+                        "id":102
+                    },
+                    {
+                        "recipy_name": "Chicken Lolipop",
+                        "price": "180",
+                        "description": "Chicken lolipops",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sgy1mworqflsthd0rvza",
+                        "id":103 
+                    }
+                ],
+                "Mojito": [
+                    {
+                        "recipy_name": "Cranberry Mojito",
+                        "price": "110",
+                        "description": "cranberry mojito",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bf7c38d5a98fe72d2acea988395d475f",
+                        "id":104
+                    },
+                    {
+                        "recipy_name": "Energizer Red Mojito",
+                        "price": "120",
+                        "description": "Energizer Red Mojito",
+                        "imageUrl": null,
+                        "id":105 
+                    }
+                ]
+            },
+            "location":{
+                "branches":1,
+                "street":"Alamuru road",
+                "location":"Hyderabad",
+                "pinCode":533308
+            }
+        },
+        "hotBox": {
+            "name": "Hot Box",
+            "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/5f106628c36c40ad8064b67ae64008cc",
+            "rating": null,
+            "time": "18 Mins",
+            "quantity": "200 For two",
+            "offers": "Free delivery",
+            "route": "hot_box",
+            "foodItems": {
+                "Grill & Tandoori": [
+                    {
+                        "recipy_name": "Grill chicken full",
+                        "price": "584",
+                        "description": "Grill chicken full",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sgy1mworqflsthd0rvza",
+                        "id":107 
+                    },
+                    {
+                        "recipy_name": "Kalmi kebab",
+                        "price": "415",
+                        "description": "Kalmi kebab",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qx5pyyollnb17ksgfl9q",
+                        "id":108 
+                    },
+                    {
+                        "recipy_name": "Grill chicken half",
+                        "price": "325",
+                        "description": "Grill chicken half",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kew4g6ryhoznenaqwzyi",
+                        "id":109 
+                    },
+                    {
+                        "recipy_name": "Tandoori chicken full",
+                        "price": "649",
+                        "description": "Tandoori chicken full",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gcinkzcpedq69jaz7anm",
+                        "id":110 
+                    }
+                ],
+                "Mr Biryani": [
+                    {
+                        "recipy_name": "Chicken wings biryani (serves : 2)",
+                        "price": "335",
+                        "description": "Chicken wings biryani (serves : 2)",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b883f5e2956e419d7abc4e21d0387a77",
+                        "id":111
+                    },
+                    {
+                        "recipy_name": "Chicken dum biryani (serves : 2)",
+                        "price": "365",
+                        "description": "Chicken dum biryani (serves : 2)",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tiot8svtqoylqs1ph8ux",
+                        "id":112 
+                    },
+                    {
+                        "recipy_name": "Non veg mixed biryani ",
+                        "price": "455",
+                        "description": "Non veg mixed biryani ",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fwezfg66qsslhzm4f0mh",
+                        "id":113
+                    }
+                ],
+                "Shawarma Parcel": [
+                    {
+                        "recipy_name": "Chicken mini shawarma",
+                        "price": "90",
+                        "description": "Chicken mini shawarma",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mx7xhfsdwtbhgllb5v82",
+                        "id":114 
+                    },
+                    {
+                        "recipy_name": "Chicken loaded shawarma",
+                        "price": "170",
+                        "description": "Chicken loaded shawarma",
+                        "imageUrl": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/x2kayevyp5rcrnzi75fr",
+                        "id":115
+                    }
+                ]
+            },
+            "location":{
+                "branches":2,
+                "street":"Yedhitha Road",
+                "location":"Dulla",
+                "pinCode":533234
+            }
+        }
+    }
+}
