@@ -1,0 +1,19 @@
+.rest-desc-details {
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+h2.rest-desc-title {
+    font-size: 45px;
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+.rest-desc-buttons {
+    margin-bottom: 20px;
+    display: flex;
+}
+.rest-desc-btn{
+    font-size: 20px;
+    cursor: pointer;
+}

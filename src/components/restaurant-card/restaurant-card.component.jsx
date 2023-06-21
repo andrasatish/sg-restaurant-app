@@ -1,14 +1,16 @@
 import { useNavigate } from 'react-router';
 import './restaurant-card.component.css';
+import { useContext } from 'react';
+import { RestaurantHolderContext } from '../../contexts/restaurant-holder.context';
 
 const RestaurantCard = ({restaurant}) => {
     const {name,imageUrl,rating,time,quantity,offers} = restaurant;
     const navigate = useNavigate();
+    const { setSelectedRestaurant } = useContext(RestaurantHolderContext);
 
     const navigateToRoute = () => {
-        navigate(`/${restaurant.route}`, {
-            state: {restaurant}
-        })
+        setSelectedRestaurant(restaurant);
+        navigate(`/${restaurant.route}`);
     }
 
     return (
